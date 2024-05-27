@@ -1,0 +1,25 @@
+#include "dynamicstack.h"
+#include <iostream>
+using namespace std;
+
+int main() {
+DynamicStack s;
+int value;
+
+cout<<"Pushing 1...\n";
+s.push(1);
+cout<<"Pushing 2...\n";
+s.push(2);
+cout<<"Pushing 3...\n";
+s.push(3);
+cout<<"Popping.....\n";
+s.pop(value);
+cout<<value<<endl;
+s.pop(value);
+cout<<value<<endl;
+s.pop(value);
+cout<<value<<endl;
+s.pop(value);
+	
+	
+}
